@@ -26,16 +26,16 @@ const Header = () => {
           </Link>
         </div>
 
-        <div onClick={() => setIsOpen(!isOpen)} className='cursor-pointer flex relative ml-[85%]'>
+        <div onClick={() => setIsOpen(!isOpen)} className='cursor-pointer flex relative'>
           <BsCart className='text-2xl' />
           <div className='bg-red-500 absolute -right-2 -bottom-2 text-[12px] w-[18px] h-[18px] 
       text-white rounded-full flex justify-center items-center'>
             {itemAmount}
           </div>
         </div>
-        <div className='cursor-pointer '>
+        {/* <div className='cursor-pointer '>
           <SlLogin className='text-2xl' />
-        </div>
+        </div> */}
       </div>
     </header>
   )
